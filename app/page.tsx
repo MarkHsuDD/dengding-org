@@ -1,6 +1,7 @@
 "use client";
 import Navbar from "./components/Navbar";
 import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import {
   ArrowRight,
@@ -11,19 +12,10 @@ import {
   ShieldCheck,
   Mail,
   MapPin,
-  Menu,
   Users,
   Trash2,
   Database,
 } from "lucide-react";
-
-const navItems = [
-  { label: "首頁", href: "/" },
-  { label: "SFS 系統", href: "/sfs" },
-  { label: "案例實績", href: "#projects" },
-  { label: "關於登鼎", href: "#about" },
-  { label: "聯絡我們", href: "#contact" },
-];
 
 const problemCards = [
   {
@@ -119,12 +111,18 @@ export default function DengDingHomepage() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <button className="rounded-2xl bg-gradient-to-r from-[#cda734] to-[#fbec96] px-6 py-3 text-[#15353d] font-semibold flex items-center gap-2 shadow-xl shadow-[#cda734]/10">
+              <Link
+                href="/sfs"
+                className="rounded-2xl bg-gradient-to-r from-[#cda734] to-[#fbec96] px-6 py-3 text-[#15353d] font-semibold flex items-center gap-2 shadow-xl shadow-[#cda734]/10"
+              >
                 了解 SFS 系統 <ArrowRight size={18} />
-              </button>
-              <button className="rounded-2xl border border-white/20 px-6 py-3 text-white/90 hover:border-[#fbec96]/60 transition">
+              </Link>
+              <Link
+                href="/contact"
+                className="rounded-2xl border border-white/20 px-6 py-3 text-white/90 hover:border-[#fbec96]/60 transition"
+              >
                 工程合作洽詢
-              </button>
+              </Link>
             </div>
           </motion.div>
 
@@ -237,7 +235,15 @@ export default function DengDingHomepage() {
             <div className="text-[#fbec96] text-sm font-semibold mb-3">
               04 / Projects
             </div>
-            <h2 className="text-3xl lg:text-4xl font-semibold">案例實績</h2>
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <h2 className="text-3xl lg:text-4xl font-semibold">案例實績</h2>
+              <Link
+                href="/case-study"
+                className="inline-flex items-center gap-2 text-[#fbec96] hover:text-white transition"
+              >
+                查看完整案例 <ArrowRight size={18} />
+              </Link>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-5">
@@ -290,9 +296,12 @@ export default function DengDingHomepage() {
                 </div>
               </div>
 
-              <button className="mt-8 w-full rounded-2xl bg-white text-[#15353d] py-3 font-semibold">
+              <Link
+                href="/contact"
+                className="mt-8 flex w-full items-center justify-center rounded-2xl bg-white text-[#15353d] py-3 font-semibold"
+              >
                 立即聯絡
-              </button>
+              </Link>
             </div>
           </div>
         </section>

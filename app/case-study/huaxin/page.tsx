@@ -1,3 +1,4 @@
+import Navbar from "../../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -11,7 +12,9 @@ import {
 
 export default function HuaxinCaseStudy() {
   return (
-    <main className="bg-[#0f2328] text-white">
+    <>
+      <Navbar />
+      <main className="bg-[#0f2328] text-white">
 
       {/* ================= HERO ================= */}
 
@@ -424,6 +427,7 @@ export default function HuaxinCaseStudy() {
 
       </section>
 
-    </main>
+      </main>
+    </>
   );
 }
