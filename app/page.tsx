@@ -76,7 +76,7 @@ const kpis = [
   },
 ];
 
-const projects = ["台糖橋中社宅", "高科實中", "華新能源"];
+const projects = ["台糖橋中社宅", "高科實校", "華新能源"];
 
 export default function DengDingHomepage() {
   return (

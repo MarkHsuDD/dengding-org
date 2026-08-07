@@ -33,6 +33,23 @@ const projects = [
       "Precision Fixture",
     ],
   },
+
+  {
+    id: "03",
+    title: "高科實校",
+    subtitle: "Public School Project",
+    location: "Qiaotou, Kaohsiung",
+    image: "/projects/kaoke-school/case3-cover.jpg",
+    href: "/case-study/kaoke-school",
+    description:
+      "高雄市橋頭區公共工程校舍案，登鼎負責國高中校舍全系統鋼模規劃與施工，以無木模收邊為核心進行模板配置與現場整合，目前持續施工中。",
+    tags: [
+      "Public School",
+      "4F",
+      "Ongoing",
+      "Full-system Steel Formwork",
+    ],
+  },
 ];
 
 export default function CaseStudyPage() {
