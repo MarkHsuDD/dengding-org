@@ -41,7 +41,7 @@ export default function SFSPage() {
                   playsInline
                   preload="metadata"
                   className="aspect-video h-full w-full rounded-[24px] bg-black object-contain"
-                  aria-label="SFS 智慧模板系統實際施工展示"
+                  aria-label="登鼎 BIM 規劃、數位化施工與現場教學流程"
                 >
                   <source src="/videos/watermarked_v3_gold.mp4" type="video/mp4" />
                   您的瀏覽器不支援影片播放。
@@ -50,18 +50,18 @@ export default function SFSPage() {
 
               <div className="flex flex-col justify-center p-8 md:p-10">
                 <div className="mb-4 text-sm font-semibold tracking-[0.18em] text-[#fbec96]">
-                  ON-SITE DEMO
+                  BIM-DRIVEN WORKFLOW
                 </div>
                 <h2 className="text-3xl font-semibold leading-tight md:text-4xl">
-                  SFS 實際施工展示
+                  從 BIM 到現場｜登鼎數位化施工導入
                 </h2>
                 <p className="mt-6 text-base leading-8 text-white/68 md:text-lg">
-                  透過系統化模板配置與標準施工流程，SFS 將傳統高度依賴老師傅經驗的模板作業，
-                  轉化為更容易理解、執行與複製的施工方式。影片呈現實際模板組立與現場操作流程，
-                  讓施工團隊能依照標準化步驟快速完成組裝，降低現場判斷與技術門檻。
+                  登鼎透過 BIM 整合建築設計與模板系統，在施工前完成模板配置、特殊節點與施工介面的數位化規劃，
+                  將複雜的現場資訊轉化為清楚、可執行的施工方案。結合數位模型、標準化作業流程與現場教學，
+                  讓施工人員能更快速理解組裝方式與施工順序，降低對個人經驗的依賴，並將施工知識轉化為可傳承、可複製的系統化能力。
                 </p>
                 <p className="mt-6 border-l-2 border-[#fbec96] pl-5 text-sm leading-7 text-white/55 md:text-base">
-                  從數位配模、標準化構件到現場施工，讓模板工程真正做到「設計可計算、施工可複製、成果可管理」。
+                  從 BIM 規劃、數位化施工到現場教學，讓工程經驗成為可視化、可傳承、可複製的施工系統。
                 </p>
               </div>
             </div>
