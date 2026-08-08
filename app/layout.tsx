@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: "登鼎智慧工程 | DengDing Smart ConTech",
   description: "登鼎智慧工程 Smart Formwork System（SFS）智慧模板系統。",
   icons: {
-    icon: [{ url: "/DD-LOGO-small.png", type: "image/png" }],
-    shortcut: "/DD-LOGO-small.png",
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    shortcut: "/favicon.svg",
     apple: "/DD-LOGO-small.png",
   },
 };
