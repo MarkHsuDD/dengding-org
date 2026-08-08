@@ -43,7 +43,7 @@ export default function SFSPage() {
                   className="aspect-video h-full w-full rounded-[24px] bg-black object-contain"
                   aria-label="SFS 智慧模板系統實際施工展示"
                 >
-                  <source src="/media/sfs/sfs-demo.mp4" type="video/mp4" />
+                  <source src="/videos/watermarked_v3_gold.mp4" type="video/mp4" />
                   您的瀏覽器不支援影片播放。
                 </video>
               </div>
