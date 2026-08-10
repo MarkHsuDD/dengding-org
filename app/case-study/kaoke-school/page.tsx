@@ -217,10 +217,40 @@ export default function KaokeSchoolCaseStudy() {
               <div className="mt-8 h-[2px] w-24 bg-[#fbec96]" />
               <p className="mt-10 text-2xl leading-relaxed text-white/72">
                 本案目前施工中，鋼模系統已陸續進場施作。
-                現場可見圓柱鋼模配置與支撐作業，後續將隨工程進度持續記錄
+                現場可見圓柱鋼模、牆體系統鋼模與支撐作業，並持續依工程進度推進
                 校舍牆、柱、梁等系統模板施工與拆模成果。
               </p>
             </div>
+          </div>
+
+          <div className="mt-12 grid gap-8 md:grid-cols-2">
+            <figure className="overflow-hidden rounded-[32px] border border-white/10 bg-[#153137] p-2">
+              <Image
+                src="/projects/kaoke-school/case3-site-01-20260810.jpg"
+                alt="高科實校一樓牆體系統鋼模施工現場"
+                width={300}
+                height={216}
+                className="aspect-[4/3] w-full rounded-[26px] object-cover"
+              />
+              <figcaption className="flex items-center justify-between gap-4 px-5 py-4 text-sm">
+                <span className="tracking-[0.12em] text-white/50">1F・SYSTEM FORMWORK</span>
+                <span className="text-[#fbec96]">現場施工實景 01</span>
+              </figcaption>
+            </figure>
+
+            <figure className="overflow-hidden rounded-[32px] border border-white/10 bg-[#153137] p-2">
+              <Image
+                src="/projects/kaoke-school/case3-site-02-20260810.jpg"
+                alt="高科實校一樓系統鋼模與柱筋施工現場"
+                width={300}
+                height={213}
+                className="aspect-[4/3] w-full rounded-[26px] object-cover"
+              />
+              <figcaption className="flex items-center justify-between gap-4 px-5 py-4 text-sm">
+                <span className="tracking-[0.12em] text-white/50">1F・SYSTEM FORMWORK</span>
+                <span className="text-[#fbec96]">現場施工實景 02</span>
+              </figcaption>
+            </figure>
           </div>
         </section>
 
