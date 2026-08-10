@@ -228,8 +228,9 @@ export default function KaokeSchoolCaseStudy() {
               <Image
                 src="/projects/kaoke-school/case3-site-01-20260810.jpg"
                 alt="高科實校一樓牆體系統鋼模施工現場"
-                width={300}
-                height={216}
+                width={2048}
+                height={1536}
+                sizes="(min-width: 768px) 50vw, 100vw"
                 className="aspect-[4/3] w-full rounded-[26px] object-cover"
               />
               <figcaption className="flex items-center justify-between gap-4 px-5 py-4 text-sm">
@@ -242,8 +243,9 @@ export default function KaokeSchoolCaseStudy() {
               <Image
                 src="/projects/kaoke-school/case3-site-02-20260810.jpg"
                 alt="高科實校一樓系統鋼模與柱筋施工現場"
-                width={300}
-                height={213}
+                width={2048}
+                height={1536}
+                sizes="(min-width: 768px) 50vw, 100vw"
                 className="aspect-[4/3] w-full rounded-[26px] object-cover"
               />
               <figcaption className="flex items-center justify-between gap-4 px-5 py-4 text-sm">
