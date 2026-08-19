@@ -62,7 +62,7 @@ const kpis = [
   {
     title: "施工效率",
     value: "+35.6%",
-    desc: "標準化施工流程",
+    desc: "整體施工進程",
   },
   {
     title: "木模耗材",
