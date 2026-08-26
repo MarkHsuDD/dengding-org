@@ -4,6 +4,7 @@ const navItems = [
   { label: "首頁", href: "/" },
   { label: "SFS 系統", href: "/sfs" },
   { label: "案例實績", href: "/case-study" },
+  { label: "洞察 Insights", href: "/insights" },
   { label: "關於登鼎", href: "/about" },
   { label: "聯絡我們", href: "/contact" },
 ];
