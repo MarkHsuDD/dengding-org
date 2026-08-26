@@ -19,6 +19,14 @@ const categories = [
 const articles = [
   {
     category: "產業觀察",
+    title: "為什麼中國建案特別適合系統模板？四個從現場就看得見的原因",
+    excerpt:
+      "超大建築量體、大量標準層、設計階段先處理整數尺寸，加上較少 RC 內隔間與 T 字牆，共同創造高周轉所需要的條件。",
+    href: "/insights/why-china-construction-projects-fit-system-formwork",
+    date: "2026.08.26",
+  },
+  {
+    category: "產業觀察",
     title: "系統模板在國外早已成熟，為什麼到了台灣卻難以落地？",
     excerpt:
       "問題不只是技術本身，而是建築設計、發包方式、工種界面與施工習慣共同形成的導入門檻。",
