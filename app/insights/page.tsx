@@ -18,6 +18,14 @@ const categories = [
 
 const articles = [
   {
+    category: "總經理筆記",
+    title: "李飛飛與 ImageNet：莫忘初心",
+    excerpt:
+      "從邁阿密海報區的一支紀念筆，到 ImageNet 改變電腦視覺，李飛飛一路上的選擇，讓我重新思考什麼是莫忘初心。",
+    href: "/insights/fei-fei-li-and-imagenet",
+    date: "2026.11.10",
+  },
+  {
     category: "產業觀察",
     title: "為什麼中國建案特別適合系統模板？四個從現場就看得見的原因",
     excerpt:
