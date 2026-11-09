@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { ArrowLeft } from "lucide-react";
 import Navbar from "../../components/Navbar";
 
@@ -25,6 +27,40 @@ const articleJsonLd = {
   publisher: { "@type": "Organization", name: "登鼎智慧工程" },
   mainEntityOfPage: url,
 };
+
+const photos = [
+  {
+    filename: "uiuc-2012.webp",
+    caption: "UIUC in 2012",
+    alt: "藍天下的 UIUC 校園紅磚建築與鐘塔",
+    width: 1600,
+    height: 1198,
+  },
+  {
+    filename: "princeton-2026.webp",
+    caption: "Princeton in 2026",
+    alt: "普林斯頓的草地、樹木與霧中的陽光",
+    width: 1600,
+    height: 1155,
+  },
+  {
+    filename: "enigma-bletchley.webp",
+    caption: "Enigma in Bletchley",
+    alt: "布萊切利展出的 Enigma 密碼機",
+    width: 1206,
+    height: 1561,
+  },
+];
+
+function SourceNote({ children }: { children: ReactNode }) {
+  return (
+    <span className="ml-2 text-xs text-white/55 [&_a]:rounded-sm [&_a]:underline [&_a]:decoration-white/25 [&_a]:underline-offset-2 [&_a:hover]:text-[#fbec96] [&_a:focus-visible]:outline [&_a:focus-visible]:outline-[#fbec96]">
+      <span aria-hidden="true">（</span>
+      {children}
+      <span aria-hidden="true">）</span>
+    </span>
+  );
+}
 
 export default function ArticlePage() {
   return (
@@ -64,6 +100,9 @@ export default function ArticlePage() {
             </p>
             <p>
               那一屆的最佳論文獎，由何愷明、孫劍、湯曉鷗以《Single Image Haze Removal Using Dark Channel Prior》獲得。
+              <SourceNote>
+                <a href="https://people.csail.mit.edu/kaiming/cvpr09/index.html">得獎論文</a>
+              </SourceNote>
             </p>
             <p>
               當聚光燈集中在講台上的學者時，海報區裡有一位 33 歲的年輕研究者。她和團隊為了在人潮中吸引目光，準備了一批印著研究計畫標誌的紀念筆，在現場發送。
@@ -76,9 +115,17 @@ export default function ArticlePage() {
             </p>
             <p>
               今年九月，AI 界有個大新聞。蘇姿丰領軍的 AMD 宣布簽署協議，將以約 82 億美元收購李飛飛共同創辦的 World Labs，並規劃在交易完成後由李飛飛出任執行副總裁兼首席科學家。
+              <SourceNote>
+                <a href="https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute">AMD 公告</a>
+              </SourceNote>
             </p>
             <p>
               2009 年在邁阿密海報區發筆的那位研究者，就是李飛飛。筆上印的是 ImageNet。
+              <SourceNote>
+                <a href="https://logicmag.io/commons/lines-of-sight/">會場紀事</a>
+                <span aria-hidden="true">・</span>
+                <a href="https://ieeexplore.ieee.org/abstract/document/5206848/">ImageNet 論文</a>
+              </SourceNote>
             </p>
             <p>
               如果故事從今年九月的收購消息談起，相信大家會有完全不同的感受。「又一個搭上 AI 浪潮的億萬富豪！」「運氣真好！」
@@ -107,9 +154,17 @@ export default function ArticlePage() {
             <p>
               媽媽知道後，對她說：「我再說最後一次，我們走到這裡，不是讓你現在放棄。」
             </p>
-            <p>最後，她留在了學校。</p>
+            <p>
+              最後，她留在了學校。
+              <SourceNote>
+                <a href="https://us.macmillan.com/books/9781250911131/theworldsisee/">李飛飛回憶錄</a>
+              </SourceNote>
+            </p>
             <p>
               之後她去了伊利諾大學厄巴納–香檳分校，回到普林斯頓推動 ImageNet，再到史丹佛，後來與夥伴創辦 World Labs。
+              <SourceNote>
+                <a href="https://hai.stanford.edu/people/fei-fei-li">史丹佛簡介</a>
+              </SourceNote>
             </p>
             <p>
               一路上，她靠著自己的堅持與家人的支持走下去，在人工智慧影像辨識領域做出了最關鍵的貢獻之一。
@@ -125,16 +180,23 @@ export default function ArticlePage() {
             </p>
           </div>
 
-          <section className="mt-12 border-t border-white/10 pt-6 text-sm leading-7 text-white/60">
-            <h2 className="font-semibold text-white">資料來源</h2>
-            <ul className="mt-2 list-disc space-y-1 pl-5 [&_a]:text-[#fbec96] [&_a]:underline [&_a]:underline-offset-4">
-              <li><a href="https://people.csail.mit.edu/kaiming/cvpr09/index.html">CVPR 2009 最佳論文</a></li>
-              <li><a href="https://ieeexplore.ieee.org/abstract/document/5206848/">IEEE 的 ImageNet 論文</a></li>
-              <li><a href="https://logicmag.io/commons/lines-of-sight/">Logic Magazine〈Lines of Sight〉</a></li>
-              <li><a href="https://us.macmillan.com/books/9781250911131/theworldsisee/">李飛飛回憶錄《The Worlds I See》</a></li>
-              <li><a href="https://hai.stanford.edu/people/fei-fei-li">史丹佛大學的李飛飛學經歷</a></li>
-              <li><a href="https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute">AMD 收購協議公告</a></li>
-            </ul>
+          <section aria-label="作者照片" className="mt-12">
+            <div className="grid gap-6 md:grid-cols-3">
+              {photos.map((photo) => (
+                <figure key={photo.filename}>
+                  <Image
+                    src={`/insights/fei-fei-li-and-imagenet/${photo.filename}`}
+                    alt={photo.alt}
+                    width={photo.width}
+                    height={photo.height}
+                    sizes="(min-width: 896px) 267px, (min-width: 768px) 30vw, calc(100vw - 3rem)"
+                    className="h-auto w-full rounded-xl"
+                  />
+                  <figcaption className="mt-2 text-sm text-white/65">{photo.caption}</figcaption>
+                </figure>
+              ))}
+            </div>
+            <p className="mt-5 text-xs text-white/55">照片均為作者拍攝。</p>
           </section>
         </article>
       </main>
