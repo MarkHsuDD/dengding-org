@@ -11,6 +11,13 @@ export const metadata: Metadata = {
 const articles = [
   {
     category: "總經理筆記",
+    title: "從網路到 AI：一個 ConTech 老伯的思考",
+    excerpt: "走過網路泡沫，再看 AI 浪潮。從營造現場到課堂，思考工具之外，人腦與經驗真正能帶來的價值。",
+    href: "/insights/from-internet-to-ai-contech-reflections",
+    date: "2026.11.16",
+  },
+  {
+    category: "總經理筆記",
     title: "李飛飛與 ImageNet：莫忘初心",
     excerpt:
       "從邁阿密海報區的一支紀念筆，到 ImageNet 改變電腦視覺，李飛飛一路上的選擇，讓我重新思考什麼是莫忘初心。",
