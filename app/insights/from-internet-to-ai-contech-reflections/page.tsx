@@ -108,10 +108,10 @@ references 一應俱全。
             <p className="whitespace-pre-line">漂漂亮亮、洋洋灑灑的文件，
 如果沒有傳遞有效的資訊，
 基本上就是垃圾。</p>
-            <p className="whitespace-pre-line">你在探討什麼？（What）
-問題的邊界在哪？（Where）
-問題的根源是什麼？（Why）
-解決方案是什麼？（How）</p>
+            <p>你在探討什麼？（What）</p>
+            <p>問題的邊界在哪？（Where）</p>
+            <p>問題的根源是什麼？（Why）</p>
+            <p>解決方案是什麼？（How）</p>
             <p className="whitespace-pre-line">時代不同，科技背景不同，
 推動文明往前走的底層邏輯，其實沒變。</p>
             <p className="whitespace-pre-line">一個 coder，如果不去想痛點本身，只用 AI 加速交付，
