@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const articles = [
   {
     category: "總經理筆記",
-    title: "從網路到 AI：一個 ConTech 老伯的思考",
+    title: "一個ConTech創辦人的思考",
     excerpt: "走過網路泡沫，再看 AI 浪潮。從營造現場到課堂，思考工具之外，人腦與經驗真正能帶來的價值。",
     href: "/insights/from-internet-to-ai-contech-reflections",
     date: "2026.11.16",

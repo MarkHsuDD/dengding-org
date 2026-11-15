@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Navbar from "../../components/Navbar";
 
-const title = "從網路到 AI：一個 ConTech 老伯的思考";
+const title = "一個ConTech創辦人的思考";
 const description = "走過網路泡沫，再看 AI 浪潮。從營造現場到課堂，思考工具之外，人腦與經驗真正能帶來的價值。";
 const url = "https://www.dengding.org/insights/from-internet-to-ai-contech-reflections";
 const date = "2026-11-16";
