@@ -11,6 +11,13 @@ export const metadata: Metadata = {
 const articles = [
   {
     category: "總經理筆記",
+    title: "一個 ConTech 創辦人的思考（二）：營造業的數位化，為什麼這麼難？",
+    excerpt: "從多、快、好、省談營造業的競爭力。BIM 推動多年，為什麼資訊仍然破碎？真正的數位轉型如何落地？",
+    href: "/insights/bim-and-construction-digital-transformation",
+    date: "2026.11.23",
+  },
+  {
+    category: "總經理筆記",
     title: "一個ConTech創辦人的思考",
     excerpt: "走過網路泡沫，再看 AI 浪潮。從營造現場到課堂，思考工具之外，人腦與經驗真正能帶來的價值。",
     href: "/insights/from-internet-to-ai-contech-reflections",
