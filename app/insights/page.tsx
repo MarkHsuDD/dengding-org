@@ -10,6 +10,13 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    "category": "總經理筆記",
+    "title": "BIM 的困境：為什麼營造業的數位轉型如此困難？",
+    "excerpt": "從資訊完整性到工序優先，重新思考 BIM 如何真正進入施工現場。",
+    "href": "/insights/bim-workflow-first",
+    "date": "2026.11.26"
+  },
+  {
     category: "總經理筆記",
     title: "一個 ConTech 創辦人的思考（二）：營造業的數位化，為什麼這麼難？",
     excerpt: "從多、快、好、省談營造業的競爭力。BIM 推動多年，為什麼資訊仍然破碎？真正的數位轉型如何落地？",
